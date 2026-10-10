@@ -1,0 +1,145 @@
+from ismatec.peristaltic_pump import RegloICCFourChannel, ChannelStatus
+import ismatec.errors
+import time
+import numpy as np
+import pytentiostats as pstat
+import datetime, time
+from alicat import FlowController
+from ika.magnetic_stirrer import MagneticStirrer
+import subprocess
+
+def run_script(script_name, num_runs):
+    for _ in range(num_runs):
+        subprocess.run(["C:\python\python-code\CO2 Setup\Scripts\python", script_name])
+#pump control COM
+#pump 1: channel 1: 0.5 mM FeTPP; channel 2: DMF; channel 3: PBS; channel 4: H2O
+#pump 2: channel 1: Waste; channel 2: FcPF6 
+
+icc1 = RegloICCFourChannel('COM6')
+icc2 = RegloICCFourChannel('COM7')
+
+port = 'COM14'
+plate = MagneticStirrer(device_port=port)
+
+#strring for 2 mins
+print('stirring for 2 mins')
+plate.start_stirring()
+plate.target_stir_rate = 400
+time.sleep(120)
+plate.stop_stirring()
+time.sleep(10)
+
+#starting CV measurement
+exec(open('MFC+CHI-Ar.py').read())
+exec(open('MFC+CHI-gas different-5%CO2.py').read())
+exec(open('MFC+CHI-gas different-8%CO2.py').read())
+exec(open('MFC+CHI-gas different-10%CO2.py').read())
+exec(open('MFC+CHI-gas different-15%CO2.py').read())
+exec(open('MFC+CHI-gas different-50%CO2.py').read())
+exec(open('MFC+CHI-CO2.py').read())
+
+#pumping_FeTPP solvent_out
+print('stop CV measurement and pump solvent out')
+icc2.set_counter_clockwise(1)
+icc2.set_mode_pump_rpm(1, 100)
+icc2.start(1)
+time.sleep(60)
+icc2.stop(1)
+
+#rinsing with 5 ml DMF for 2 times
+print('rinsing with 5 ml DMF in and out for 2 times')
+print('rinsing in first time')
+icc1.set_clockwise(2)
+icc1.set_mode_pump_rpm(2, 79)
+icc1.start(2)
+time.sleep(30)
+icc1.stop(2)
+print('Waiting 30 s')
+
+plate.start_stirring()
+plate.target_stir_rate = 400
+time.sleep(40)
+plate.stop_stirring()
+time.sleep(10)
+
+print('rinsing out first time')
+icc2.set_counter_clockwise(1)
+icc2.set_mode_pump_rpm(1, 100)
+icc2.start(1)
+time.sleep(60)
+icc2.stop(1)
+print('Waiting 10 s')
+time.sleep(10)
+
+print('rinsing in second time')
+icc1.set_clockwise(2)
+icc1.set_mode_pump_rpm(2, 79)
+icc1.start(2)
+time.sleep(30)
+icc1.stop(2)
+print('Waiting 30 s')
+
+plate.start_stirring()
+plate.target_stir_rate = 400
+time.sleep(40)
+plate.stop_stirring()
+time.sleep(10)
+
+print('rinsing out second time')
+icc2.set_counter_clockwise(1)
+icc2.set_mode_pump_rpm(1, 100)
+icc2.start(1)
+time.sleep(60)
+icc2.stop(1)
+print('Waiting 10 s')
+time.sleep(10)
+
+#rinsing with 5 ml H20 for 2 times
+print('rinsing with 5 ml H2O')
+print('rinsing in first time')
+icc1.set_clockwise(4)
+icc1.set_mode_pump_rpm(4, 79)
+icc1.start(4)
+time.sleep(30)
+icc1.stop(4)
+print('Waiting 30 s')
+
+plate.start_stirring()
+plate.target_stir_rate = 400
+time.sleep(40)
+plate.stop_stirring()
+time.sleep(10)
+
+print('rinsing out first time')
+icc2.set_counter_clockwise(1)
+icc2.set_mode_pump_rpm(1, 100)
+icc2.start(1)
+time.sleep(60)
+icc2.stop(1)
+print('Waiting 10 s')
+time.sleep(10)
+
+#rinsing in second time
+print('rinsing in second time')
+icc1.set_clockwise(4)
+icc1.set_mode_pump_rpm(4, 79)
+icc1.start(4)
+time.sleep(30)
+icc1.stop(4)
+print('Waiting 30 s')
+
+plate.start_stirring()
+plate.target_stir_rate = 400
+time.sleep(40)
+plate.stop_stirring()
+time.sleep(10)
+
+print('rinsing out second time')
+icc2.set_counter_clockwise(1)
+icc2.set_mode_pump_rpm(1, 100)
+icc2.start(1)
+time.sleep(60)
+icc2.stop(1)
+print('Waiting 10 s')
+time.sleep(10)
+
