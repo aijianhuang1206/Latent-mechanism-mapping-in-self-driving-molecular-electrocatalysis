@@ -1,0 +1,25 @@
+import subprocess
+
+def run_script(script_name, num_runs):
+    for _ in range(num_runs):
+        subprocess.run(["C:\python\python-code\CO2 Setup\Scripts\python", script_name])
+
+run_script("FeTPP+single proton source-part1.py", 1)
+run_script("1-FeTPP+10-4-0-0-0-20-0-36.py", 1)
+run_script("FeTPP+single proton source-part2.py", 1)
+
+run_script("FeTPP+single proton source-part1.py", 1)
+run_script("2-FeTPP+14-2-0-0-0-20-0-34.py", 1)
+run_script("FeTPP+single proton source-part2.py", 1)
+
+run_script("FeTPP+single proton source-part1.py", 1)
+run_script("3-FeTPP+18-0-22-5-15-0-10-0.py", 1)
+run_script("FeTPP+single proton source-part2.py", 1)
+
+run_script("FeTPP+single proton source-part1.py", 1)
+run_script("4-FeTPP+18-0-22-6-14-0-10-0.py", 1)
+run_script("FeTPP+single proton source-part2.py", 1)
+
+run_script("FeTPP+single proton source-part1.py", 1)
+run_script("5-FeTPP+16-0-24-6-14-0-9-1.py", 1)
+run_script("FeTPP+single proton source-part2.py", 1)
