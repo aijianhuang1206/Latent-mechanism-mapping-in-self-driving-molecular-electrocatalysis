@@ -1,0 +1,111 @@
+9 个 Python 脚本批量运行日志
+启动时间：2026-08-31 04:20:24
+启动目录：D:\CO2RR-Setup\0-Manuscript\important code in main text\Fold validation\Trial-8\Step2-calculate the Ci and Axi plot for each input x0
+
+准备依次执行以下脚本：
+1. Calculate Mean and SD.py
+2. Calculate Mean and SD-for 1.00Ci.py
+3. Calculate Mean and SD-for 0.05Ci.py
+4. Contribution-heat_map-0.05Ci-revision.py
+5. Contribution-heat_map-1.00Ci-revision.py
+6. Plot-Axi summary.py
+7. collect_and_layout_images_default_root-Axi.py
+8. collect_and_layout_images_default_root-Bxixj-5%CO2.py
+9. collect_and_layout_images_default_root-Bxixj-100%CO2.py
+
+======================================================================================
+[1/9] 开始执行
+脚本名称：Calculate Mean and SD.py
+开始时间：2026-08-31 04:20:24
+Python解释器：D:\python\python312\python.exe
+工作目录：D:\CO2RR-Setup\0-Manuscript\important code in main text\Fold validation\Trial-8\Step2-calculate the Ci and Axi plot for each input x0
+======================================================================================
+[成功] Calculate Mean and SD.py 完成时间：2026-08-31 04:20:25
+
+======================================================================================
+[2/9] 开始执行
+脚本名称：Calculate Mean and SD-for 1.00Ci.py
+开始时间：2026-08-31 04:20:25
+Python解释器：D:\python\python312\python.exe
+工作目录：D:\CO2RR-Setup\0-Manuscript\important code in main text\Fold validation\Trial-8\Step2-calculate the Ci and Axi plot for each input x0
+======================================================================================
+[成功] Calculate Mean and SD-for 1.00Ci.py 完成时间：2026-08-31 04:20:26
+
+======================================================================================
+[3/9] 开始执行
+脚本名称：Calculate Mean and SD-for 0.05Ci.py
+开始时间：2026-08-31 04:20:26
+Python解释器：D:\python\python312\python.exe
+工作目录：D:\CO2RR-Setup\0-Manuscript\important code in main text\Fold validation\Trial-8\Step2-calculate the Ci and Axi plot for each input x0
+======================================================================================
+[成功] Calculate Mean and SD-for 0.05Ci.py 完成时间：2026-08-31 04:20:27
+
+======================================================================================
+[4/9] 开始执行
+脚本名称：Contribution-heat_map-0.05Ci-revision.py
+开始时间：2026-08-31 04:20:27
+Python解释器：D:\python\python312\python.exe
+工作目录：D:\CO2RR-Setup\0-Manuscript\important code in main text\Fold validation\Trial-8\Step2-calculate the Ci and Axi plot for each input x0
+======================================================================================
+[成功] Contribution-heat_map-0.05Ci-revision.py 完成时间：2026-08-31 04:20:32
+
+======================================================================================
+[5/9] 开始执行
+脚本名称：Contribution-heat_map-1.00Ci-revision.py
+开始时间：2026-08-31 04:20:32
+Python解释器：D:\python\python312\python.exe
+工作目录：D:\CO2RR-Setup\0-Manuscript\important code in main text\Fold validation\Trial-8\Step2-calculate the Ci and Axi plot for each input x0
+======================================================================================
+[成功] Contribution-heat_map-1.00Ci-revision.py 完成时间：2026-08-31 04:20:36
+
+======================================================================================
+[6/9] 开始执行
+脚本名称：Plot-Axi summary.py
+开始时间：2026-08-31 04:20:36
+Python解释器：D:\python\python312\python.exe
+工作目录：D:\CO2RR-Setup\0-Manuscript\important code in main text\Fold validation\Trial-8\Step2-calculate the Ci and Axi plot for each input x0
+======================================================================================
+[成功] Plot-Axi summary.py 完成时间：2026-08-31 04:20:38
+
+======================================================================================
+[7/9] 开始执行
+脚本名称：collect_and_layout_images_default_root-Axi.py
+开始时间：2026-08-31 04:20:38
+Python解释器：D:\python\python312\python.exe
+工作目录：D:\CO2RR-Setup\0-Manuscript\important code in main text\Fold validation\Trial-8\Step2-calculate the Ci and Axi plot for each input x0
+======================================================================================
+[成功] collect_and_layout_images_default_root-Axi.py 完成时间：2026-08-31 04:20:42
+
+======================================================================================
+[8/9] 开始执行
+脚本名称：collect_and_layout_images_default_root-Bxixj-5%CO2.py
+开始时间：2026-08-31 04:20:42
+Python解释器：D:\python\python312\python.exe
+工作目录：D:\CO2RR-Setup\0-Manuscript\important code in main text\Fold validation\Trial-8\Step2-calculate the Ci and Axi plot for each input x0
+======================================================================================
+[成功] collect_and_layout_images_default_root-Bxixj-5%CO2.py 完成时间：2026-08-31 04:21:00
+
+======================================================================================
+[9/9] 开始执行
+脚本名称：collect_and_layout_images_default_root-Bxixj-100%CO2.py
+开始时间：2026-08-31 04:21:00
+Python解释器：D:\python\python312\python.exe
+工作目录：D:\CO2RR-Setup\0-Manuscript\important code in main text\Fold validation\Trial-8\Step2-calculate the Ci and Axi plot for each input x0
+======================================================================================
+[成功] collect_and_layout_images_default_root-Bxixj-100%CO2.py 完成时间：2026-08-31 04:21:17
+
+======================================================================================
+运行结果汇总
+======================================================================================
+Calculate Mean and SD.py                                       SUCCESS
+Calculate Mean and SD-for 1.00Ci.py                            SUCCESS
+Calculate Mean and SD-for 0.05Ci.py                            SUCCESS
+Contribution-heat_map-0.05Ci-revision.py                       SUCCESS
+Contribution-heat_map-1.00Ci-revision.py                       SUCCESS
+Plot-Axi summary.py                                            SUCCESS
+collect_and_layout_images_default_root-Axi.py                  SUCCESS
+collect_and_layout_images_default_root-Bxixj-5%CO2.py          SUCCESS
+collect_and_layout_images_default_root-Bxixj-100%CO2.py        SUCCESS
+
+日志文件：D:\CO2RR-Setup\0-Manuscript\important code in main text\Fold validation\Trial-8\Step2-calculate the Ci and Axi plot for each input x0\run_all_9_scripts.log
+全部 9 个脚本均已成功执行。
