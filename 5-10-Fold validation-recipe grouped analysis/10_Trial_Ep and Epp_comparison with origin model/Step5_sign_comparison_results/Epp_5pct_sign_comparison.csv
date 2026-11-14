@@ -1,0 +1,30 @@
+﻿E″,Trial 1,Trial 2,Trial 3,Trial 4,Trial 5,Trial 6,Trial 7,Trial 8,Trial 9,Trial 10,Sign similarity (%)
+"5, 5",Same,Same,Same,Same,Same,Same,Same,Same,Same,Same,100.0
+"10, 5",Same,Same,Same,Same,Same,Same,Same,Same,Same,Same,100.0
+"10, 10",Same,Same,Same,Same,Same,Same,Same,Same,Same,Same,100.0
+"11, 5",Same,Same,Same,Same,Same,Same,Same,Same,Same,Same,100.0
+"11, 10",Same,Same,Same,Same,Same,Same,Same,Same,Same,Same,100.0
+"11, 11",Same,Same,Same,Same,Same,Same,Different,Same,Same,Same,90.0
+"32, 5",Same,Same,Same,Same,Same,Same,Same,Same,Same,Same,100.0
+"32, 10",Same,Same,Same,Different,Same,Same,Same,Same,Same,Same,90.0
+"32, 11",Same,Same,Same,Same,Same,Same,Same,Same,Same,Same,100.0
+"32, 32",Same,Same,Same,Same,Same,Same,Same,Same,Same,Same,100.0
+"33, 5",Same,Same,Same,Same,Same,Same,Same,Same,Same,Same,100.0
+"33, 10",Same,Same,Same,Same,Same,Same,Same,Same,Same,Same,100.0
+"33, 11",Different,Different,Same,Different,Different,Same,Different,Different,Different,Same,30.0
+"33, 32",Same,Same,Same,Same,Same,Same,Same,Different,Same,Same,90.0
+"33, 33",Same,Same,Same,Same,Same,Same,Same,Same,Same,Same,100.0
+"34, 5",Same,Same,Same,Same,Same,Same,Same,Same,Same,Same,100.0
+"34, 10",Same,Same,Same,Same,Same,Same,Same,Same,Same,Same,100.0
+"34, 11",Different,Same,Same,Same,Same,Different,Different,Different,Same,Same,60.0
+"34, 32",Same,Same,Same,Same,Same,Same,Same,Same,Same,Same,100.0
+"34, 33",Same,Same,Same,Same,Same,Same,Same,Same,Same,Same,100.0
+"34, 34",Same,Same,Same,Same,Same,Same,Different,Same,Same,Same,90.0
+"41, 5",Different,Different,Same,Different,Different,Different,Different,Same,Different,Different,20.0
+"41, 10",Same,Same,Same,Same,Same,Same,Same,Same,Different,Same,90.0
+"41, 11",Different,Different,Different,Same,Same,Same,Same,Different,Different,Same,50.0
+"41, 32",Same,Same,Same,Same,Same,Same,Same,Same,Same,Same,100.0
+"41, 33",Same,Same,Same,Same,Same,Same,Same,Same,Same,Same,100.0
+"41, 34",Same,Same,Same,Same,Same,Same,Same,Same,Same,Same,100.0
+"41, 41",Same,Same,Same,Same,Same,Same,Different,Same,Same,Same,90.0
+Overall,85.71428571428571,89.28571428571429,96.42857142857143,89.28571428571429,92.85714285714286,92.85714285714286,78.57142857142857,85.71428571428571,85.71428571428571,96.42857142857143,89.28571428571429

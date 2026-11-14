@@ -1,0 +1,8 @@
+﻿Term,Reference_sign,Trial-1_sign,Trial-2_sign,Trial-3_sign,Trial-4_sign,Trial-5_sign,Trial-6_sign,Trial-7_sign,Trial-8_sign,Trial-9_sign,Trial-10_sign,Same_count,Valid_count,Same_percent,Comparison_basis
+5,1,-1,-1,1,-1,-1,1,1,1,1,-1,5,10,50.0,Raw physical Eprime
+10,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,10,10,100.0,Raw physical Eprime
+11,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,10,10,100.0,Raw physical Eprime
+32,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,10,10,100.0,Raw physical Eprime
+33,1,-1,1,1,1,1,1,1,1,1,1,9,10,90.0,Raw physical Eprime
+34,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,10,10,100.0,Raw physical Eprime
+41,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,10,10,100.0,Raw physical Eprime

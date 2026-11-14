@@ -1,0 +1,6 @@
+﻿Comparison,Same count,Valid count,Overall sign similarity (%)
+Epp_5pct,250,280,89.28571428571429
+Epp_100pct,258,280,92.14285714285714
+Epp_difference,242,280,86.42857142857143
+Ep_5pct,68,70,97.14285714285714
+Ep_100pct,64,70,91.42857142857143
