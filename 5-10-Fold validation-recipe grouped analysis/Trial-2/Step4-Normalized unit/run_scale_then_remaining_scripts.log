@@ -1,0 +1,61 @@
+先运行 scale_Ci_statistics.py，随后运行其余分析脚本
+启动时间：2026-11-02 06:35:58
+当前文件夹：D:\CO2RR-Setup\0-Manuscript\important code in main text\Fold validation-recipe grouped analysis\Trial-2\Step4-Normalized unit
+Python 解释器：D:\python\python312\python.exe
+
+计划执行顺序：
+1. scale_Ci_statistics.py
+2. Normalized unit-Bxixj-heat map-0.05Ci.py
+3. Normalized unit-Bxixj-heat map-1.00Ci.py
+4. Normalized unit-Plot Axi equation-Mean and SD.py
+
+================================================================================================
+开始执行：第一阶段：生成归一化数据
+脚本名称：scale_Ci_statistics.py
+工作目录：D:\CO2RR-Setup\0-Manuscript\important code in main text\Fold validation-recipe grouped analysis\Trial-2\Step4-Normalized unit
+Python 解释器：D:\python\python312\python.exe
+开始时间：2026-11-02 06:35:58
+================================================================================================
+[成功] scale_Ci_statistics.py；结束时间：2026-11-02 06:35:59；耗时：0.8 秒
+
+================================================================================================
+开始执行：第二阶段：后续脚本 1/3
+脚本名称：Normalized unit-Bxixj-heat map-0.05Ci.py
+工作目录：D:\CO2RR-Setup\0-Manuscript\important code in main text\Fold validation-recipe grouped analysis\Trial-2\Step4-Normalized unit
+Python 解释器：D:\python\python312\python.exe
+开始时间：2026-11-02 06:35:59
+================================================================================================
+[成功] Normalized unit-Bxixj-heat map-0.05Ci.py；结束时间：2026-11-02 06:36:06；耗时：6.8 秒
+
+================================================================================================
+开始执行：第二阶段：后续脚本 2/3
+脚本名称：Normalized unit-Bxixj-heat map-1.00Ci.py
+工作目录：D:\CO2RR-Setup\0-Manuscript\important code in main text\Fold validation-recipe grouped analysis\Trial-2\Step4-Normalized unit
+Python 解释器：D:\python\python312\python.exe
+开始时间：2026-11-02 06:36:06
+================================================================================================
+[成功] Normalized unit-Bxixj-heat map-1.00Ci.py；结束时间：2026-11-02 06:36:13；耗时：7.0 秒
+
+================================================================================================
+开始执行：第二阶段：后续脚本 3/3
+脚本名称：Normalized unit-Plot Axi equation-Mean and SD.py
+工作目录：D:\CO2RR-Setup\0-Manuscript\important code in main text\Fold validation-recipe grouped analysis\Trial-2\Step4-Normalized unit
+Python 解释器：D:\python\python312\python.exe
+开始时间：2026-11-02 06:36:13
+================================================================================================
+[成功] Normalized unit-Plot Axi equation-Mean and SD.py；结束时间：2026-11-02 06:36:16；耗时：3.8 秒
+
+================================================================================================
+最终运行结果汇总
+================================================================================================
+scale_Ci_statistics.py                                             SUCCESS                    0.8 秒
+Normalized unit-Bxixj-heat map-0.05Ci.py                           SUCCESS                    6.8 秒
+Normalized unit-Bxixj-heat map-1.00Ci.py                           SUCCESS                    7.0 秒
+Normalized unit-Plot Axi equation-Mean and SD.py                   SUCCESS                    3.8 秒
+
+已执行：4
+失败：0
+未执行：0
+日志文件：D:\CO2RR-Setup\0-Manuscript\important code in main text\Fold validation-recipe grouped analysis\Trial-2\Step4-Normalized unit\run_scale_then_remaining_scripts.log
+全部结束时间：2026-11-02 06:36:16
+全部脚本均已成功执行。
